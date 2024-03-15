@@ -11,7 +11,7 @@ public class Util {
 
     public static Connection getConnection() {
         Connection connection = null;
-        try{
+        try {
             connection = DriverManager.getConnection(URL, USERNAME, PASSWORD);
 
         } catch (SQLException e) {
@@ -19,7 +19,6 @@ public class Util {
         }
         return connection;
     }
-
 
 
 }
